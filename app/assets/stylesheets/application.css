@@ -13,3 +13,102 @@
  *= require_tree .
  *= require_self
  */
+
+/*-----------------home------------------*/
+
+/*----------------index---------------*/
+.main-contents{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.list_container {
+  width: 100%;
+}
+
+.book_list {
+  width: 90%;
+  table-layout: fixed;
+}
+
+.book_title {
+  width: 20%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.book_body {
+  width: 60%;
+  text-align: center;
+  font-size: 15px;
+}
+
+td{
+  font-size: 15px;
+}
+
+.title_data {
+  width: 30%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.body_data {
+  width: 70%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.buttons {
+  width: 150px;
+}
+
+.form_title_label .form_title .form_body_label .form_body{
+  display: block;
+}
+
+/*------------------error------------------*/
+
+.alert{
+  display: inline-block;
+  border: red solid 3px;
+  margin-bottom: 30px;
+}
+
+.error_count{
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 100px;
+  background-color: red;
+  color: white;
+}
+
+.error_box{
+  padding: 30px 100px;
+  font-size: 12px;
+}
+
+.field_with_errors{
+  display: inline-block;
+  background-color: red;
+}
+
+
+/*-----------------show------------------*/
+
+.show_table_container{
+  padding: 50px;
+}
+
+.show_button{
+  margin-left: 50px;
+}
+
+.flash{
+  color: lightgreen;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/*------------------edit-------------------*/
